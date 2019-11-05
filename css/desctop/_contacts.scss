@@ -1,0 +1,25 @@
+@media screen and (max-width: $xl-width) {
+        .contacts {
+        padding-left: 25px;
+
+        p {
+            padding-bottom: 34px;
+        }
+
+        .social {
+            padding-left: 24px;
+        }
+
+        dt {
+            width: 28px;
+            height: 28px;
+            font-size: 14px;
+        }
+
+        dd {
+            margin: 0 0 35px 52px;
+            line-height: 28px;
+            font-size: 17px;
+        }
+    }
+}

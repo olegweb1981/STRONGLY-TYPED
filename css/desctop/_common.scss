@@ -1,0 +1,15 @@
+@media screen and (max-width: $xl-width) {
+    
+    h2, title {
+        font-size: 29px;
+    }
+    
+    h3, .title {
+        font-size: 17px;
+    }
+    
+    .text, p {
+        line-height: 28px;
+        font-size: 17px;
+    }
+}

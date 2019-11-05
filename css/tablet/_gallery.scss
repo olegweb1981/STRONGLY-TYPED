@@ -1,0 +1,27 @@
+@media screen and (max-width: $lg-width) {
+
+    .section {
+        padding: 70px 0 111px 0;
+
+        h2 {
+            padding-bottom: 43px;
+        }
+    }
+
+    .gallery {
+        padding-bottom: 66px;
+    }
+
+    .gallery-item {
+        width: 31.1%;
+
+        .title {
+            padding: 59px 0 22px 0;
+        }
+
+        img {
+            height: 57%;
+        }
+
+    }
+}

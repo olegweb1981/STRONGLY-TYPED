@@ -1,0 +1,17 @@
+@media screen and (max-width: $xl-width) {
+    .banner {
+        padding: 173px 0;
+    
+        .bracket {
+    
+            &:before {
+                margin-top: -18px;
+            }
+        }
+    }
+    
+    .slogan {
+        font-size: 35px;
+        line-height: 52px;
+    }
+}

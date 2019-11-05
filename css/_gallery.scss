@@ -1,0 +1,31 @@
+.section {
+    padding: 128px 0 181px 0;
+    text-align: center;
+
+    h2 {
+        padding-bottom: 57px;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 92px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 31%;
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        padding: 74px 0 29px 0;
+    }
+
+}

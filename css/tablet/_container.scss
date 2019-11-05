@@ -1,0 +1,5 @@
+@media screen and (max-width: $lg-width) {
+    .container {
+        width: calc(100% - 80px);
+    }
+}

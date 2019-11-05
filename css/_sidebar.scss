@@ -1,0 +1,59 @@
+.sidebar {
+    width: 31%;
+    padding: 101px 0;
+
+    .mini-post {
+        padding-bottom: 52px;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #E4E4E4;
+
+        &:nth-child(3) {
+            border-bottom: 0;
+        }
+    }
+
+    .date {
+        padding: 9px 17px 10px 17px;
+        font-weight: 400;
+        color: white;
+        background-color: #868686;
+        border-radius: 4px;
+        font-size: 17px;
+        letter-spacing: 2px;
+        box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.15);
+        display: inline-block;
+    }
+
+    h3 {
+        padding: 46px 0 29px 0;
+    }
+
+    .aside {
+        padding: 50px 0;
+        border-top: 1px solid #E4E4E4;
+        box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+
+        h3 {
+            padding-bottom: 29px;
+        }
+
+        img {
+            float: left;
+            margin-right: 31px;
+            margin-top: 10px;
+        }
+
+        p {
+            padding-bottom: 39px;
+        }
+    }
+
+    .excerpt {
+        border-bottom: 1px solid #E4E4E4;
+        padding: 8px 0 52px 0;
+
+        &:nth-child(2) {
+            border-bottom: 0;
+        }
+    }
+}

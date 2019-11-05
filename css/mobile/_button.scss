@@ -1,0 +1,12 @@
+@media screen and (max-width: $sm-width) {
+    .btn {
+        font-size: 12px;
+        padding: 16px 36px 17px 36px;
+        width: 100%;
+        display: block;
+
+        i {
+            padding-right: 10px;
+        }
+    }
+}

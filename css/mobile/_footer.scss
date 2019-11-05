@@ -1,0 +1,56 @@
+@media screen and (max-width: $sm-width) {
+
+    .footer {
+        padding: 33px 0 0 0;
+    }
+
+    .feedback {
+        padding: 24px 0 6px 0;
+        flex-direction: column;
+
+        .form, textarea {
+            padding-bottom: 0;
+            flex-direction: column;
+        }
+
+        .form-group {
+            width: 100%;
+            padding: 0;
+
+            input, textarea {
+                padding: 8px 16px 13px 16px;
+                font-size: 15px;
+            }
+
+            input {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            textarea {
+                height: 176px;
+            }
+
+            .btn {
+                margin-top: -1px;
+                text-align: center;
+            }
+        }
+    }
+
+    .copyring {
+        padding: 29px 0 28px 0;
+        
+        ul {
+            flex-direction: column;
+
+            li {
+                padding-bottom: 5px;
+                border-left: 0;
+                padding-left: 0;
+                margin-left: 0;
+                font-size: 15px;
+            }
+        }
+    }
+}

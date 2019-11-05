@@ -1,0 +1,30 @@
+@media screen and (max-width: $sm-width) {
+        .contacts {
+            width: 100%;
+            padding: 30px 0 0 0;
+
+        p {
+            padding-bottom: 29px;
+        }
+
+        .social {
+            padding-left: 0;
+            
+            dd {
+                margin: 0 31px 24px 44px;
+            }
+        }
+
+        dt {
+            width: 24px;
+            height: 24px;
+            font-size: 12px;
+        }
+
+        dd {
+            margin: 0 31px 28px 44px;
+            line-height: 24px;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: $md-width) {
+    .container {
+        width: calc(100% - 100px);
+    }
+}

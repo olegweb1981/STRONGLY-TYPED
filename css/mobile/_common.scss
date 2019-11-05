@@ -1,0 +1,16 @@
+@media screen and (max-width: $sm-width) {
+    
+    h2, title {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    
+    h3, .title {
+        font-size: 18px;
+    }
+    
+    .text, p {
+        line-height: 24px;
+        font-size: 15px;
+    }
+}

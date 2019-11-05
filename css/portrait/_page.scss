@@ -1,0 +1,42 @@
+@media screen and (max-width: $md-width) {
+    
+    .main {
+        padding: 19px 0;
+        flex-direction: column;
+
+        br {
+            display: none;
+        }
+
+        h2 {
+            line-height: 46px;
+            padding-bottom: 40px;
+        }
+
+        h3 {
+            padding: 53px 0 24px 0;
+        }
+
+        .btn {
+            margin-top: 8px;
+        }
+
+        .page {
+            padding-right: 0;
+            width: 100%;
+        }
+
+        .content {
+            padding: 45px 0 79px 0;
+            
+            &:nth-child(2) {
+                padding-top: 70px;
+                padding-bottom: 45px;
+            }
+
+            p {
+                padding-bottom: 31px;
+            }
+        }
+    }
+}

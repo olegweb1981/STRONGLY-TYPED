@@ -1,0 +1,43 @@
+@media screen and (max-width: $xl-width) {
+
+    .footer {
+        padding: 110px 0 0 0;
+    }
+
+    .feedback {
+        padding: 50px 0 72px 0;
+
+        .form, textarea {
+            padding-bottom: 27px;
+        }
+
+        .form-group {
+            padding: 0px 26px 0 0;
+
+            input, textarea {
+                font-size: 17px;
+                padding: 12px 16px;
+            }
+
+            input {
+                width: 47.5%;
+            }
+
+            textarea {
+                height: 191px;
+            }
+        }
+    }
+
+    .copyring {
+        padding: 74px 0 176px 0;
+
+        ul {
+            li {
+                padding-left: 17px;
+                margin-left: 17px;
+                font-size: 17px;
+            }
+        }
+    }
+}

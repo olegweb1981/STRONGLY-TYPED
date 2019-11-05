@@ -1,0 +1,22 @@
+@media screen and (max-width: $sm-width) {
+
+    .banner {
+        padding: 74px 0;
+
+    
+        .bracket {
+            display: none;
+        }
+
+    }
+    
+    .slogan {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 0px;
+
+        br {
+            display: none;
+        }
+    }
+}

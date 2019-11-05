@@ -1,0 +1,31 @@
+@media screen and (max-width: $xl-width) {
+
+    .section {
+        padding: 110px 0 155px 0;
+
+        h2 {
+            padding-bottom: 46px;
+        }
+    }
+
+    .gallery {
+        padding-bottom: 80px;
+    }
+
+    .gallery-item {
+        width: 30.5%;
+
+        .title {
+            padding: 64px 0 24px 0;
+        }
+
+        img {
+            height: 54.9%;
+        }
+
+        .text {
+            text-align: center;
+        }
+
+    }
+}

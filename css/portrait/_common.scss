@@ -1,0 +1,15 @@
+@media screen and (max-width: $md-width) {
+    
+    h2, title {
+        font-size: 26px;
+    }
+    
+    h3, .title {
+        font-size: 16px;
+    }
+    
+    .text, p {
+        line-height: 26px;
+        font-size: 16px;
+    }
+}

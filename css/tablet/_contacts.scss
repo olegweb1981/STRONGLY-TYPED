@@ -1,0 +1,28 @@
+@media screen and (max-width: $lg-width) {
+        .contacts {
+        padding-left: 20px;
+
+        p {
+            padding-bottom: 32px;
+        }
+
+        .social {
+            padding-left: 21px;
+            dd {
+                margin: 0 0 30px 47px;
+            }
+        }
+
+        dt {
+            width: 26px;
+            height: 26px;
+            font-size: 13px;
+        }
+
+        dd {
+            margin: 0 0 32px 47px;
+            line-height: 26px;
+            font-size: 16px;
+        }
+    }
+}

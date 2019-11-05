@@ -1,0 +1,50 @@
+.main {
+    padding: 19px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2 {
+        line-height: 57px;
+        padding-bottom: 48px;
+    }
+
+    a {
+        border-bottom: 0;
+    }
+
+    h3 {
+        padding: 70px 0 29px 0;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 11px;
+    }
+
+    .page {
+        width: 69%;
+        padding-right: 50px;
+    }
+
+    .content {
+        border-bottom: 2px solid #e5e5e5;
+        padding: 101px 0 100px 0;
+        margin-bottom: 8px;
+        
+        &:nth-child(2) {
+            border-top: 2px solid #e5e5e5;
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-top: 91px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            padding-bottom: 40px;
+        }
+    }
+}

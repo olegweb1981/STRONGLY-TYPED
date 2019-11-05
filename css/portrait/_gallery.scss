@@ -1,0 +1,33 @@
+@media screen and (max-width: $md-width) {
+
+    .section {
+        padding: 70px 0 111px 0;
+
+        h2 {
+            padding-bottom: 47px;
+        }
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        padding-bottom: 31px;
+    }
+
+    .gallery-item {
+        width: 47.1%;
+        padding-bottom: 50px;
+
+        &:nth-child(3) {
+            margin: 0 auto;
+        }
+
+        .title {
+            padding: 59px 0 22px 0;
+        }
+
+        img {
+            height: 61%;
+        }
+
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: $sm-width) {
+
+    .navbar {
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        font-size: 18px;
+        background-color: #E9E9E9;
+        padding: 11px 21px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+    }
+
+    
+}

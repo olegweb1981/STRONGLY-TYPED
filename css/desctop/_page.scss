@@ -1,0 +1,35 @@
+@media screen and (max-width: $xl-width) {
+    
+    .main {
+        padding: 19px 0;
+
+        h2 {
+            line-height: 50px;
+            padding-bottom: 43px;
+        }
+
+        h3 {
+            padding: 59px 0 24px 0;
+        }
+
+        .btn {
+            margin-top: 11px;
+        }
+
+        .page {
+            padding-right: 44px;
+        }
+
+        .content {
+            padding: 85px 0 87px 0;
+            
+            &:nth-child(2) {
+                padding-top: 77px;
+            }
+
+            p {
+                padding-bottom: 33px;
+            }
+        }
+    }
+}
