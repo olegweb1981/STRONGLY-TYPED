@@ -12,5 +12,55 @@
         cursor: pointer;
     }
 
-    
+    .menu-panel {
+        top: 0;
+        left: 0;
+        width: 275px;
+        height: 100%;
+        background-color: #464646;
+        transition: 0.5s ease;
+        z-index: 99999;
+        border-right: solid 2px #3c3c3c;
+        transform: translateX(-275px);
+        overflow-y: auto;
+        position: fixed;
+
+        ul {
+            font-weight: 300;
+            padding-left: 14px;
+            
+            &:nth-child(1) {
+                font-weight: 600;
+            }
+            &:nth-child(2) {
+                font-weight: 600;
+            }
+
+            li {
+                line-height: 43px;
+                color: #fff;
+                letter-spacing: 2px;
+                font-size: 14px;
+                border-bottom: solid 1px #3c3c3c;
+                cursor: pointer;
+            }
+        }
+    }
+
+    body.is-menu-visible .menu-panel {
+        transform: translateX(0px);
+    }
+    body.is-menu-visible .wrapper {
+        transform: translateX(275px);
+        transition: 0.5s ease;
+    }
+}
+
+@media screen and (min-width: 981px) {
+    .menu-panel {
+        display: none;
+    }
+    .navbar {
+        display: none;   
+    }
 }

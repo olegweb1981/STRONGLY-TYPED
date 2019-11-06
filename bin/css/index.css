@@ -513,6 +513,72 @@ h3, .title {
   color: white;
 }
 
+.dropdown, .subcat {
+  position: absolute;
+  border: 1px solid #E4E4E4;
+  min-width: 240px;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.15);
+  background-color: white;
+  z-index: 10001;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown ul, .subcat ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown ul li, .subcat ul li {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 0;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.dropdown ul li:hover, .subcat ul li:hover {
+  color: #E77A6B;
+  transition: 0.5s ease;
+}
+
+.dropdown ul li:nth-child(5), .subcat ul li:nth-child(5) {
+  border-bottom: 0;
+}
+
+.dropdown {
+  left: 0;
+  top: 45px;
+}
+
+.dropdown:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 12px;
+  top: -15px;
+  border-left: solid 0.75em rgba(255, 255, 255, 0);
+  border-right: solid 0.75em rgba(255, 255, 255, 0);
+  border-bottom: solid 0.75em #ccc;
+  opacity: 0.5;
+}
+
+.subcat {
+  top: -11px;
+  right: -251px;
+  min-width: 240px;
+}
+
+.subcat li:nth-child(3) {
+  border-bottom: 0;
+}
+
+.menu li:hover > .dropdown,
+.menu li:hover > .subcat {
+  display: block;
+  transition-duration: 1s;
+}
+
 @media screen and (max-width: 1680px) {
   h2, title {
     font-size: 29px;
@@ -1175,6 +1241,53 @@ h3, .title {
     border-radius: 5px;
     box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
+  }
+  .menu-panel {
+    top: 0;
+    left: 0;
+    width: 275px;
+    height: 100%;
+    background-color: #464646;
+    transition: 0.5s ease;
+    z-index: 99999;
+    border-right: solid 2px #3c3c3c;
+    transform: translateX(-275px);
+    overflow-y: auto;
+    position: fixed;
+  }
+  .menu-panel ul {
+    font-weight: 300;
+    padding-left: 14px;
+  }
+  .menu-panel ul:nth-child(1) {
+    font-weight: 600;
+  }
+  .menu-panel ul:nth-child(2) {
+    font-weight: 600;
+  }
+  .menu-panel ul li {
+    line-height: 43px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-bottom: solid 1px #3c3c3c;
+    cursor: pointer;
+  }
+  body.is-menu-visible .menu-panel {
+    transform: translateX(0px);
+  }
+  body.is-menu-visible .wrapper {
+    transform: translateX(275px);
+    transition: 0.5s ease;
+  }
+}
+
+@media screen and (min-width: 981px) {
+  .menu-panel {
+    display: none;
+  }
+  .navbar {
+    display: none;
   }
 }
 
