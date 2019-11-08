@@ -10,6 +10,7 @@
         border-radius: 5px;
         box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.15);
         cursor: pointer;
+        transition: 0.5s ease;
     }
 
     .menu-panel {
@@ -49,8 +50,9 @@
 
     body.is-menu-visible .menu-panel {
         transform: translateX(0px);
+        transition: 0.5s ease;
     }
-    body.is-menu-visible .wrapper {
+    body.is-menu-visible .navbar {
         transform: translateX(275px);
         transition: 0.5s ease;
     }
@@ -60,7 +62,7 @@
     .menu-panel {
         display: none;
     }
-    .navbar {
+    i.navbar {
         display: none;   
     }
 }

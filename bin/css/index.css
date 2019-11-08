@@ -207,7 +207,6 @@ h3, .title {
 .gallery-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 31%;
 }
 
@@ -630,19 +629,16 @@ h3, .title {
     padding: 110px 0 155px 0;
   }
   .section h2 {
-    padding-bottom: 46px;
+    padding-bottom: 50px;
   }
   .gallery {
-    padding-bottom: 80px;
+    padding-bottom: 75px;
   }
   .gallery-item {
     width: 30.5%;
   }
   .gallery-item .title {
     padding: 64px 0 24px 0;
-  }
-  .gallery-item img {
-    height: 54.9%;
   }
   .gallery-item .text {
     text-align: center;
@@ -850,9 +846,6 @@ h3, .title {
   }
   .gallery-item .title {
     padding: 59px 0 22px 0;
-  }
-  .gallery-item img {
-    height: 57%;
   }
 }
 
@@ -1062,9 +1055,6 @@ h3, .title {
   .gallery-item .title {
     padding: 59px 0 22px 0;
   }
-  .gallery-item img {
-    height: 61%;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -1241,6 +1231,7 @@ h3, .title {
     border-radius: 5px;
     box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
+    transition: 0.5s ease;
   }
   .menu-panel {
     top: 0;
@@ -1275,8 +1266,9 @@ h3, .title {
   }
   body.is-menu-visible .menu-panel {
     transform: translateX(0px);
+    transition: 0.5s ease;
   }
-  body.is-menu-visible .wrapper {
+  body.is-menu-visible .navbar {
     transform: translateX(275px);
     transition: 0.5s ease;
   }
@@ -1286,7 +1278,7 @@ h3, .title {
   .menu-panel {
     display: none;
   }
-  .navbar {
+  i.navbar {
     display: none;
   }
 }
@@ -1346,9 +1338,6 @@ h3, .title {
   }
   .gallery-item .title {
     padding: 23px 0 18px 0;
-  }
-  .gallery-item img {
-    height: 100%;
   }
 }
 
